@@ -1,0 +1,11 @@
+.card {
+    background-color: black;
+}
+
+.card .card-body {
+    color: white;
+}
+
+.card .card-body .small {
+    color: white !important;
+}
