@@ -1,5 +1,6 @@
 .card {
     background-color: black;
+    border: 2px solid #f005ff;
 }
 
 .card .card-body {
@@ -8,4 +9,61 @@
 
 .card .card-body .small {
     color: white !important;
+}
+
+
+.badge-pos-Opposite {
+    color: #9b30ff; /* Neon Purple 1 */
+}
+
+.badge-pos-Outside-Hitter {
+    color: #a64ca6; /* Neon Purple 2 */
+}
+
+.badge-pos-Middle-Blocker {
+    color: #b266b2; /* Neon Purple 3 */
+}
+
+.badge-pos-Setter {
+    color: #bf80bf; /* Neon Purple 4 */
+}
+
+.badge-pos-Libero {
+    color: #cc99cc; /* Neon Purple 5 */
+}
+
+.badge-pos-Head-Coach {
+    color: #d9b3d9; /* Neon Purple 6 */
+}
+
+.badge-pos-Technical-Advisor {
+    color: #e6cce6; /* Neon Purple 7 */
+}
+
+.badge-pos-Serving-and-Attacking-Coach {
+    color: #f2e6f2; /* Neon Purple 8 */
+}
+
+.badge-pos-Development-Coach {
+    color: #d1a3d1; /* Purple 1 */
+}
+
+.badge-pos-Strength-and-Conditioning-Coach {
+    color: #b380b3; /* Purple 2 */
+}
+
+.badge-pos-Athletic-Trainer {
+    color: #996699; /* Purple 3 */
+}
+
+.badge-pos-Physiotherapist {
+    color: #804d80; /* Purple 4 */
+}
+
+.badge-pos-Nutritionist {
+    color: #663366; /* Purple 5 */
+}
+
+.badge-pos-Mental-Coach {
+    color: #4d294d; /* Purple 6 */
 }
