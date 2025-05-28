@@ -85,7 +85,7 @@ const players = [
   },
   { 
     id: 8,
-    name: "Kentaro Takahashi",
+    name: "Kenta Takahashi",
     position: "Outside Hitter",
     height: 194,
     age: 31,
