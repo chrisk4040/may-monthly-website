@@ -121,40 +121,29 @@ const players = [
   },
   { 
     id: 12,
-    name: "Takahiro Ogata",
+    name: "Masaki Oya",
     position: "Setter",
-    height: 180,
-    age: 26,
+    height: 178,
+    age: 30,
     jerseyNumber: 7,
     club: "Panasonic Panthers",
     hometown: "Tokyo Prefecture",
     specialties: ["setting", "tactical play"],
-    picture: "takahiro_ogata.jpg"
+    picture: "Masaki_Oya.jpg"
   },
   { 
     id: 13,
-    name: "Tatsuya Fukuzawa",
+    name: "Larry Ik Evbade-Dan",
     position: "Outside-Hitter",
-    height: 191,
-    age: 37,
+    height: 196,
+    age: 24,
     jerseyNumber: 2,
     club: "Tokyo Great Bears",
     hometown: "Shizouka Prefecture",
     specialties: ["experience", "leadership"],
-    picture: "tatsuya_fukuzawa.jpg"
+    picture: "Larry_Ik.jpg"
   },
-  { 
-    id: 14,
-    name: "Kento Miyaura", 
-    position: "Opposite",
-    height: 193,
-    age: 29,
-    jerseyNumber: 3,
-    club: "Panasonic Panthers",
-    hometown: "Aichi Prefecture",
-    specialties: ["powerful attack", "serving"],
-    picture: "kento_miyaura.jpg"
-  }
+
 ]
 
 
@@ -180,28 +169,6 @@ const japanVolleyballCoachesAndTrainers = [
     previousExperience: ["Japan National Team Head Coach (2016-2021)", "Panasonic Panthers Coach"],
     specialties: ["technique refinement", "strategic planning"],
     picture: "yuichi_nakagaichi.jpg"
-  },
-  {
-    id: 3,
-    name: "Akihiro Yamanaka",
-    position: "Assistant-Coach",
-    age: 42,
-    nationality: "Japanese",
-    yearsWithTeam: 4,
-    previousExperience: ["JTEKT Stings Assistant Coach", "Japan Youth Team Coach"],
-    specialties: ["blocking techniques", "defense systems"],
-    picture: "akihiro_yamanaka.jpg"
-  },
-  {
-    id: 4,
-    name: "Vincent Lacombe",
-    position: "Serving-and-Attacking-Coach",
-    age: 47,
-    nationality: "French",
-    yearsWithTeam: 2,
-    previousExperience: ["France Youth National Team Coach", "Montpellier Volleyball Technical Director"],
-    specialties: ["jump serve technique", "spike training"],
-    picture: "vincent_lacombe.jpg"
   },
   {
     id: 5,
