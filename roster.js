@@ -20,6 +20,7 @@ const render = list => {
         <p class= "small text-muted mb-0"> 
             age ${p.age}
             </p>
+        <a onclick="motif()">More</a>
             </div>
             </div>
         `

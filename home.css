@@ -1,4 +1,14 @@
-html {
-    background-image: url(tokyo-night-pictures-37v7l5txrsfmsp8e.jpg);
+body {
+    background-image: url('bacgimg/tokyo-night-pictures-37v7l5txrsfmsp8e.jpg');
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

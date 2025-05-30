@@ -67,3 +67,12 @@
 .badge-pos-Mental-Coach {
     color: #4d294d; /* Purple 6 */
 }
+
+.card-img-top {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}

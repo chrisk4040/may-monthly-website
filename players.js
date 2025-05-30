@@ -1,5 +1,6 @@
+
 const players = [
- { 
+  { 
     id: 1,
     name: "Yuki Ishikawa",
     position: "Outside-Hitter",
@@ -9,7 +10,7 @@ const players = [
     club: "Allianz Milano",
     hometown: "Okazaki, Aichi Prefecture",
     specialties: ["receiving", "spiking", "leadership"],
-    picture: "yuki_ishikawa.jpg"
+    picture: "img/yuki_ishikawa.png"
   },
   { 
     id: 2,
@@ -21,7 +22,7 @@ const players = [
     club: "Panasonic Panthers",
     hometown: "Toyohashi, Aichi Prefecture",
     specialties: ["setting", "game control"],
-    picture: "masahiro_sekita.jpg"
+    picture: "img/masahiro_sekita.png"
   },
   { 
     id: 3,
@@ -33,7 +34,7 @@ const players = [
     club: "Volley Milano",
     hometown: "Mie Prefecture",
     specialties: ["spike serve", "power hitting"],
-    picture: "yuji_nishida.jpg"
+    picture: "img/yuji_nishida.png"
   },
   { 
     id: 4,
@@ -45,7 +46,7 @@ const players = [
     club: "JTEKT Stings",
     hometown: "Osaka Prefecture",
     specialties: ["blocking", "quick attacks"],
-    picture: "akihiro_yamauchi.jpg"
+    picture: "img/akihiro_yamauchi.png"
   },
   { 
     id: 5,
@@ -57,7 +58,7 @@ const players = [
     club: "Volley Callipo",
     hometown: "Fukuoka Prefecture",
     specialties: ["all-around play", "jumping ability"],
-    picture: "ran_takahashi.jpg"
+    picture: "img/ran_takahashi.png"
   },
   { 
     id: 6,
@@ -69,7 +70,7 @@ const players = [
     club: "JT Thunders Hiroshima",
     hometown: "Miyagi Prefecture",
     specialties: ["serving", "receiving"],
-    picture: "tatsunori_otsuka.jpg"
+    picture: "img/tatsunori_otsuka.png"
   },
   { 
     id: 7,
@@ -81,19 +82,19 @@ const players = [
     club: "Suntory Sunbirds",
     hometown: "Yokohama, Kanagawa Prefecture",
     specialties: ["blocking", "height advantage"],
-    picture: "taishi_onodera.jpg"
+    picture: "img/taishi_onodera.png"
   },
   { 
     id: 8,
     name: "Kenta Takahashi",
-    position: "Outside Hitter",
+    position: "OutsideHitter",
     height: 194,
     age: 31,
     jerseyNumber: 4,
     club: "Wolf Dogs Nagoya",
     hometown: "Kumamoto Prefecture",
     specialties: ["receiving", "consistent attack"],
-    picture: "kentaro_takahashi.jpg"
+    picture: "img/kentaro_takahashi.png"
   },
   { 
     id: 9,
@@ -105,7 +106,7 @@ const players = [
     club: "Suntory Sunbirds",
     hometown: "Nagasaki Prefecture",
     specialties: ["defense", "receiving"],
-    picture: "tomohiro_yamamoto.jpg"
+    picture: "img/tomohiro_yamamoto.png"
   },
   { 
     id: 10,
@@ -117,7 +118,7 @@ const players = [
     club: "JT Thunders Hiroshima",
     hometown: "Hokkaido Prefecture",
     specialties: ["blocking", "quick attack"],
-    picture: "kenta_takanashi.jpg"
+    picture: "img/kentaro_takahashi.png"
   },
   { 
     id: 12,
@@ -129,7 +130,7 @@ const players = [
     club: "Panasonic Panthers",
     hometown: "Tokyo Prefecture",
     specialties: ["setting", "tactical play"],
-    picture: "Masaki_Oya.jpg"
+    picture: "img/Masaki_Oya.png"
   },
   { 
     id: 13,
@@ -141,9 +142,8 @@ const players = [
     club: "Tokyo Great Bears",
     hometown: "Shizouka Prefecture",
     specialties: ["experience", "leadership"],
-    picture: "Larry_Ik.jpg"
+    picture: "img/Larry_Ik.png"
   },
-
 ]
 
 
@@ -157,7 +157,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 5,
     previousExperience: ["Poland National Team Assistant Coach", "France National Team Head Coach"],
     specialties: ["tactical planning", "player development"],
-    picture: "philippe_blain.jpg"
+    picture: "img/philippe_blain.jpg"
   },
   {
     id: 2,
@@ -168,7 +168,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 8,
     previousExperience: ["Japan National Team Head Coach (2016-2021)", "Panasonic Panthers Coach"],
     specialties: ["technique refinement", "strategic planning"],
-    picture: "yuichi_nakagaichi.jpg"
+    picture: "img/yuichi_nakagaichi.png"
   },
   {
     id: 5,
@@ -179,7 +179,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 3,
     previousExperience: ["Japan Women's National Team Head Coach", "Toray Arrows Coach"],
     specialties: ["talent development", "skills training"],
-    picture: "masayoshi_manabe.jpg"
+    picture: "img/masayoshi_manabe.jpg"
   },
   {
     id: 6,
@@ -190,7 +190,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 7,
     previousExperience: ["Tokyo Olympic Training Center", "Suntory Sunbirds S&C Coach"],
     specialties: ["power development", "injury prevention"],
-    picture: "kenji_shimaoka.jpg"
+    picture: "img/kenji_shimaoka.jpg"
   },
   {
     id: 7,
@@ -201,7 +201,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 9,
     previousExperience: ["Japan Olympic Committee Medical Staff", "FC Tokyo Trainer"],
     specialties: ["rehabilitation", "injury treatment"],
-    picture: "hiroshi_toyoda.jpg"
+    picture: "img/hiroshi_toyoda.gif"
   },
   {
     id: 8,
@@ -212,7 +212,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 5,
     previousExperience: ["National Sports Science Center", "Panasonic Panthers Physiotherapist"],
     specialties: ["sports massage", "recovery protocols"],
-    picture: "satoshi_kanazawa.jpg"
+    picture: "img/satoshi_kanazawa.jpg"
   },
   {
     id: 9,
@@ -223,7 +223,7 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 4,
     previousExperience: ["Japan Olympic Committee Nutritionist", "Tokyo Sports Medicine Clinic"],
     specialties: ["performance nutrition", "recovery meal planning"],
-    picture: "marie_tanaka.jpg"
+    picture: "img/marie_tanaka.png"
   },
   {
     id: 10,
@@ -234,8 +234,6 @@ const japanVolleyballCoachesAndTrainers = [
     yearsWithTeam: 3,
     previousExperience: ["Sports Psychology Institute", "Japan Swimming Team Consultant"],
     specialties: ["performance anxiety management", "focus training"],
-    picture: "taro_miyazaki.jpg"
+    picture: "img/taro_miyazaki.jpg"
   }
 ];
-
-
